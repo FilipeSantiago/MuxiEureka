@@ -12,4 +12,4 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-  password: ${EUREKA_USER_PASSWORD:password}
+  password: ${USER_PASSWORD:password}
